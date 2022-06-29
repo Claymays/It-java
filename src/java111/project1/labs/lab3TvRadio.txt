@@ -1,0 +1,38 @@
+class Tv {
+    poweredOn
+    channel
+    volume
+    pictureSettings
+
+    ------
+
+    togglePower()
+    changeChannel()
+    changeVolume()
+    changeSettings()
+}
+
+class Radio {
+    poweredOn
+    transmissionState // am/fm
+    volume
+    station
+    ------
+
+    togglePower()
+    toggleTransmission()
+    changeStation()
+    changeVolume()
+}
+
+class MediaDevice {
+    poweredOn
+    volume
+    channel
+
+    ------
+
+    togglePower
+    changeChannel
+    changeVolume
+}
