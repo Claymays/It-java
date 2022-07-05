@@ -1,6 +1,5 @@
 package assignments;
 
-import assignments.Assignment2Debug;
 /**
  * A class made for module 1 assignment 2
  * Demonstrates debugging skills.

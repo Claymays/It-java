@@ -1,3 +1,5 @@
+package labs;
+
 /**
  *  The Dog class which we will use in lab 2
  *

@@ -1,4 +1,13 @@
+/**
+ * A test driver class for the contact object.
+ *
+ * @author Clayton Mays
+ */
 public class ContactTestDrive {
+    /** Creates two contact objects, sets their variables, and displays.
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         Contact firstContact = new Contact();
         Contact secondContact = new Contact();
@@ -11,11 +20,11 @@ public class ContactTestDrive {
         
         firstContact.display();
 
-        secondContact.setFirstName("");
-        secondContact.setLastName("Mays");
-        secondContact.setAddress("105 N Butler st., Madison, Wisconsin");
-        secondContact.setPhone("6083731938");
-        secondContact.setEmail("acmays@madisoncollege.edu");
+        secondContact.setFirstName("Joseph");
+        secondContact.setLastName("Biden");
+        secondContact.setAddress("1600 Pennsylvania Avenue NW, Washington, DC 20500");
+        secondContact.setPhone("202-456-1111");
+        secondContact.setEmail("president@whitehouse.gov");
 
         secondContact.display();
     }

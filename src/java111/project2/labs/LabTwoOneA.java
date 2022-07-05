@@ -1,4 +1,4 @@
-package src.java111.project2.labs;
+package labs;
 
 /**
  * A class for demonstrating multiplication of different primitives
@@ -14,7 +14,7 @@ public class LabTwoOneA {
      * A method for displaying a product of different primitives.
      */
     public void printProduct() {
-        System.out.println(x + " " + y + " " + z + " = " + (x * y * z) +
+        System.out.println(x + " * " + y + " * " + z + " = " + (x * y * z) +
                             ".   This is the expected result");
     }
 
@@ -45,5 +45,6 @@ class PrimitivesTestDrive {
         LabTwoOneA test = new LabTwoOneA();
 
         test.printProduct();
+        test.printQuotient();
     }
 }
