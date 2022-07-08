@@ -28,23 +28,3 @@ public class LabTwoOneA {
     }
 }
 
-/**
- * A test drive class for lab two one a
- *
- * @author Clayton Mays
- */
-class PrimitivesTestDrive {
-
-    /**
-     * Method that creates an instance of LabTwoOneA for testing purposes.
-     * The main method of the class.
-     *
-     * @param args
-     */
-    public static void main(String[] args) {
-        LabTwoOneA test = new LabTwoOneA();
-
-        test.printProduct();
-        test.printQuotient();
-    }
-}

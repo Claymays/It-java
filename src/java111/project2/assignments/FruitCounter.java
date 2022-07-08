@@ -50,26 +50,20 @@ public class FruitCounter {
         basket[5].setQuantity(60);
 
         for (int i = 0; i < basket.length; i++) {
+            System.out.println(display(basket[i]));
+
             total += basket[i].getQuantity();
         }
-        System.out.println("Total pieces of fruit: " + total);
+        System.out.printf("\nI have %d " +
+                "Total pieces of fruit: ", total);
     }
-}
 
-/**
- * A class for testing the FruitCounter class
- *
- * @author Clayton Mays
- */
-class FruitCounterTestDrive {
     /**
-     * Main method of the class meant for testing purposes.
-     *
-     * @param args
+     * A method for formatting output of a fruit
+     * @param fruit The fruit object to be formatted
+     * @return The formatted information about the fruit object
      */
-    public static void main(String[] args) {
-        FruitCounter basket = new FruitCounter();
-
-        basket.run();
+    public String display(Fruit fruit) {
+        return String.format("I have %d %s", fruit.getQuantity(), fruit.getName());
     }
 }
